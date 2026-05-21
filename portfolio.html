@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="description" content="Portfolio projects by HT Studio across graphic design, animation, VFX, motion graphics, AI videos, and video editing.">
+  <title>Portfolio | HT Studio</title>
+  <link rel="icon" type="image/png" href="assets/images/logo.png">
+  <link rel="apple-touch-icon" href="assets/images/logo.png">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Portfolio | HT Studio">
+  <meta property="og:description" content="Watch selected animation, VFX, motion graphics, AI videos, and video editing work by HT Studio.">
+  <meta property="og:image" content="assets/images/profile.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Portfolio | HT Studio">
+  <meta name="twitter:description" content="Animation, VFX, motion graphics, AI videos, and video editing portfolio.">
+  <meta name="twitter:image" content="assets/images/profile.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="portfolio">
+  <div class="page-loader" aria-hidden="true"><span></span></div>
+  <header class="site-header" id="siteHeader"><nav class="navbar container"><a class="brand" href="index.html"><img src="assets/images/logo.png" alt="HT Studio logo"><span>HT Studio</span></a><button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button><div class="nav-links" id="navLinks"><a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Services</a><a href="portfolio.html" class="active">Portfolio</a><a href="contact.html">Contact</a><button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">Theme</button></div></nav></header>
+  <main>
+    <section class="page-hero section-bg"><div class="ambient-lines"></div><div class="container narrow reveal"><span class="eyebrow">Selected work</span><h1>Frames, campaigns, and identities with cinematic energy.</h1><p>Explore sample projects across design, animation, VFX, motion graphics, and editorial storytelling.</p></div></section>
+    <section class="section container">
+      <div class="section-head portfolio-section-head reveal">
+        <span class="eyebrow">Creative library</span>
+        <h2>Room for every reel, poster, and design piece.</h2>
+        <p>Each section has space for more work as your portfolio grows.</p>
+      </div>
+      <div class="filter-bar reveal" role="list" aria-label="Portfolio filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="Graphic Design">Graphic Design</button>
+        <button class="filter-btn" data-filter="VFX">VFX</button>
+        <button class="filter-btn" data-filter="Motion Graphics">Motion Graphics</button>
+        <button class="filter-btn" data-filter="AI Videos">AI Videos</button>
+        <button class="filter-btn" data-filter="Video Editing">Video Editing</button>
+      </div>
+      <div class="portfolio-sections" id="portfolioGrid">
+        <section class="portfolio-category reveal" data-category-section="VFX">
+          <div class="portfolio-category-head"><span>VFX</span><h2>VFX</h2></div>
+          <div class="portfolio-grid category-grid">
+            <article class="portfolio-card video-card video-slot reveal" data-category="VFX" data-title="3D Camera Tracking" data-year="2026" data-software="After Effects" data-youtube-url="https://www.youtube.com/watch?v=7YSUbzDhCYs" data-desc="3D camera tracking render built in After Effects with matched movement and cinematic scene integration.">
+              <div class="youtube-preview" aria-hidden="true"><img src="https://i.ytimg.com/vi/7YSUbzDhCYs/hqdefault.jpg" alt="" loading="lazy"><span class="youtube-play"></span></div>
+              <div class="slot-badge">3D Tracking</div>
+              <div class="project-info"><span>VFX</span><h3>3D Camera Tracking</h3><p>Tracked camera movement and scene match.</p></div>
+            </article>
+            <!-- HIDDEN CARD: To show this card later, delete the style="display:none" below -->
+            <article class="portfolio-card video-card video-slot reveal delay-1" style="display:none" data-category="VFX" data-title="Cinematic VFX Composite" data-year="2026" data-software="After Effects, Maya" data-video="assets/videos/vfx-edit.mp4" data-desc="Composited VFX sample with atmosphere, camera energy, and cinematic grade.">
+              <video class="portfolio-video" src="assets/videos/vfx-edit.mp4" controls playsinline preload="none" aria-label="Cinematic VFX Composite"></video>
+              <div class="slot-badge">Composite</div>
+              <div class="project-info"><span>VFX</span><h3>Cinematic VFX Composite</h3><p>Compositing and cinematic grade.</p></div>
+            </article>
+            <article class="portfolio-card video-card video-slot reveal delay-2" data-category="VFX" data-title="Double Role | AE" data-year="2026" data-software="After Effects" data-youtube-url="https://www.youtube.com/watch?v=Vd4QYeTDUkw" data-desc="Double-role VFX shot built in After Effects with compositing, masking, and matched timing.">
+              <div class="youtube-preview" aria-hidden="true"><img src="https://i.ytimg.com/vi/Vd4QYeTDUkw/hqdefault.jpg" alt="" loading="lazy"><span class="youtube-play"></span></div>
+              <div class="slot-badge">Double Role</div>
+              <div class="project-info"><span>VFX</span><h3>Double Role | AE</h3><p>After Effects double-role composite.</p></div>
+            </article>
+            <article class="portfolio-card video-card video-slot reveal delay-3" data-category="VFX" data-title="Roto Cat" data-year="2026" data-software="After Effects, Rotoscoping" data-youtube-url="https://www.youtube.com/watch?v=1JEw_0VSAGY" data-desc="Rotoscoping VFX sample focused on clean subject isolation and frame-by-frame movement.">
+              <div class="youtube-preview" aria-hidden="true"><img src="https://i.ytimg.com/vi/1JEw_0VSAGY/hqdefault.jpg" alt="" loading="lazy"><span class="youtube-play"></span></div>
+              <div class="slot-badge">Rotoscope</div>
+              <div class="project-info"><span>VFX</span><h3>Roto Cat</h3><p>Rotoscoping and subject isolation.</p></div>
+            </article>
+          </div>
+        </section>
+
+        <section class="portfolio-category reveal" data-category-section="Motion Graphics">
+          <div class="portfolio-category-head"><span>Motion Graphics</span><h2>Motion Graphics</h2></div>
+          <div class="portfolio-grid category-grid">
+            <article class="portfolio-card video-card video-slot reveal" data-category="Motion Graphics" data-title="Google Logo Animation 1" data-year="2026" data-software="After Effects, Adobe Premiere Pro" data-youtube-url="https://www.youtube.com/watch?v=6RYFSTgw2TU" data-desc="Google logo animation with clean brand movement, rhythmic timing, and polished reveal energy.">
+              <div class="youtube-preview" aria-hidden="true"><img src="https://i.ytimg.com/vi/6RYFSTgw2TU/hqdefault.jpg" alt="" loading="lazy"><span class="youtube-play"></span></div>
+              <div class="slot-badge">Logo Animation</div>
+              <div class="project-info"><span>Logo Animation</span><h3>Google Logo Animation 1</h3><p>Google brand logo animation.</p></div>
+            </article>
+            <article class="portfolio-card video-card video-slot reveal delay-1" data-category="Motion Graphics" data-title="Oreo Logo Animation" data-year="2026" data-software="After Effects" data-youtube-url="https://www.youtube.com/watch?v=iDF7yAj4mj4" data-desc="Oreo company logo animation with playful timing, brand-focused movement, and polished reveal styling.">
+              <div class="youtube-preview" aria-hidden="true"><img src="https://i.ytimg.com/vi/iDF7yAj4mj4/hqdefault.jpg" alt="" loading="lazy"><span class="youtube-play"></span></div>
+              <div class="slot-badge">Logo Animation</div>
+              <div class="project-info"><span>Logo Animation</span><h3>Oreo Logo Animation</h3><p>Oreo company logo animation.</p></div>
+            </article>
+            <article class="portfolio-card video-card video-slot reveal delay-2" data-category="Motion Graphics" data-title="Google Logo Animation 2" data-year="2026" data-software="After Effects" data-youtube-url="https://www.youtube.com/watch?v=VKcDPss0ZcU" data-desc="Google logo animation render with brand color, smooth pacing, and clean logo reveal work.">
+              <div class="youtube-preview" aria-hidden="true"><img src="https://i.ytimg.com/vi/VKcDPss0ZcU/hqdefault.jpg" alt="" loading="lazy"><span class="youtube-play"></span></div>
+              <div class="slot-badge">Logo Animation</div>
+              <div class="project-info"><span>Logo Animation</span><h3>Google Logo Animation 2</h3><p>Google logo reveal animation.</p></div>
+            </article>
+            <article class="portfolio-card video-card video-slot reveal delay-3" data-category="Motion Graphics" data-title="Sneaker Ad" data-year="2026" data-software="After Effects" data-youtube-url="https://www.youtube.com/watch?v=CQfitdtNfQs" data-desc="Sneaker product ad with motion graphics, polished timing, and campaign-style presentation.">
+              <div class="youtube-preview" aria-hidden="true"><img src="https://i.ytimg.com/vi/CQfitdtNfQs/hqdefault.jpg" alt="" loading="lazy"><span class="youtube-play"></span></div>
+              <div class="slot-badge">Sneaker Ad</div>
+              <div class="project-info"><span>Motion Graphics</span><h3>Sneaker Ad</h3><p>Product ad motion graphics comp.</p></div>
+            </article>
+          </div>
+        </section>
+
+        <section class="portfolio-category reveal" data-category-section="AI Videos">
+          <div class="portfolio-category-head"><span>AI Videos</span><h2>AI Videos</h2></div>
+          <div class="portfolio-grid category-grid">
+            <article class="portfolio-card video-card video-slot reveal" data-category="AI Videos" data-title="Harley Davidson AI Ad" data-year="2026" data-software="AI Video, Adobe Premiere Pro" data-youtube-url="https://www.youtube.com/watch?v=Fcp4Rr5jEpk" data-desc="AI-driven Harley Davidson ad concept with cinematic product energy and campaign-style pacing.">
+              <div class="youtube-preview" aria-hidden="true"><img src="https://i.ytimg.com/vi/Fcp4Rr5jEpk/hqdefault.jpg" alt="" loading="lazy"><span class="youtube-play"></span></div>
+              <div class="slot-badge">AI Ad</div>
+              <div class="project-info"><span>AI Videos</span><h3>Harley Davidson AI Ad</h3><p>Cinematic AI motorcycle ad concept.</p></div>
+            </article>
+
+            <article class="portfolio-card video-card video-slot reveal delay-2" data-category="AI Videos" data-title="Dark Night of the Soul" data-year="2026" data-software="AI Video, Adobe Premiere Pro" data-youtube-url="https://www.youtube.com/watch?v=GI0C0WaYL5A" data-desc="AI cinematic video with atmospheric storytelling and dark visual narrative.">
+              <div class="youtube-preview" aria-hidden="true"><img src="https://i.ytimg.com/vi/GI0C0WaYL5A/hqdefault.jpg" alt="" loading="lazy"><span class="youtube-play"></span></div>
+              <div class="slot-badge">AI Video</div>
+              <div class="project-info"><span>AI Videos</span><h3>Dark Night of the Soul</h3><p>Cinematic AI dark visual narrative.</p></div>
+            </article>
+          </div>
+        </section>
+
+        <section class="portfolio-category reveal" data-category-section="Video Editing">
+          <div class="portfolio-category-head"><span>Video Editing</span><h2>Video Editing</h2></div>
+          <div class="portfolio-grid category-grid">
+            <article class="portfolio-card video-card video-slot reveal" data-category="Video Editing" data-title="Thor Love and Thunder Trailer" data-year="2026" data-software="Adobe Premiere Pro" data-youtube-url="https://www.youtube.com/watch?v=jmS2lAR7w4I" data-desc="Trailer edit built in Adobe Premiere Pro with cinematic pacing, music timing, and polished presentation.">
+              <div class="youtube-preview" aria-hidden="true"><img src="https://i.ytimg.com/vi/jmS2lAR7w4I/hqdefault.jpg" alt="" loading="lazy"><span class="youtube-play"></span></div>
+              <div class="slot-badge">Trailer Edit</div>
+              <div class="project-info"><span>Video Editing</span><h3>Thor Love and Thunder Trailer</h3><p>Premiere Pro trailer cut and polish.</p></div>
+            </article>
+            <article class="portfolio-card video-card video-slot reveal delay-1" data-category="Video Editing" data-title="UltraKey Background Replacement" data-year="2026" data-software="Adobe Premiere Pro, UltraKey" data-youtube-url="https://www.youtube.com/watch?v=HDc1M4FCwuI" data-desc="Green screen background replacement using UltraKey in Adobe Premiere Pro.">
+              <div class="youtube-preview" aria-hidden="true"><img src="https://i.ytimg.com/vi/HDc1M4FCwuI/hqdefault.jpg" alt="" loading="lazy"><span class="youtube-play"></span></div>
+              <div class="slot-badge">UltraKey</div>
+              <div class="project-info"><span>Video Editing</span><h3>Green Screen Replacement</h3><p>UltraKey background replacement edit.</p></div>
+            </article>
+            <article class="portfolio-card video-card video-slot reveal delay-3" data-category="Video Editing" data-title="Cinematic Color Grading" data-year="2026" data-software="Adobe Premiere Pro, Lumetri Color" data-youtube-url="https://www.youtube.com/watch?v=dcR6W9GRAv0" data-desc="Cinematic color grading sample in Adobe Premiere Pro focused on contrast, mood, and polished visual tone.">
+              <div class="youtube-preview" aria-hidden="true"><img src="https://i.ytimg.com/vi/dcR6W9GRAv0/hqdefault.jpg" alt="" loading="lazy"><span class="youtube-play"></span></div>
+              <div class="slot-badge">Color Grade</div>
+              <div class="project-info"><span>Video Editing</span><h3>Cinematic Color Grading</h3><p>Cinematic color correction and grade.</p></div>
+            </article>
+          </div>
+        </section>
+
+        <section class="portfolio-category reveal" data-category-section="Graphic Design">
+          <div class="portfolio-category-head"><span>Graphic Design</span><h2>Graphic Design</h2></div>
+          <div class="portfolio-grid category-grid">
+            <article class="portfolio-card graphic-card reveal" data-category="Graphic Design" data-title="Matte Painting Final" data-year="2026" data-software="Photoshop" data-desc="A cinematic castle matte painting built with layered atmosphere, depth, and fantasy environment design."><img class="graphic-card-img" src="assets/images/graphic-design/graphic-matte-painting-final.jpg" alt="" loading="lazy"><div><span>Matte Painting</span><h3>Matte Painting Final</h3><p>Cinematic environment artwork.</p></div></article>
+            <article class="portfolio-card graphic-card reveal delay-1" data-category="Graphic Design" data-title="Unity Day Poster" data-year="2026" data-software="Photoshop" data-desc="A poster composition designed for a Unity Day visual assignment."><img class="graphic-card-img" src="assets/images/graphic-design/graphic-unity-day-poster.jpg" alt="" loading="lazy"><div><span>Poster Design</span><h3>Unity Day Poster</h3><p>Event-style poster composition.</p></div></article>
+            <article class="portfolio-card graphic-card reveal delay-2" data-category="Graphic Design" data-title="Thread & Co Landing Page" data-year="2026" data-software="Figma" data-desc="A full web design landing page for Thread & Co, a minimal fashion brand. Features hero section, newsletter signup, features strip, brand story, and footer — designed with clean typography and earthy tones."><img class="graphic-card-img" src="assets/images/graphic-design/graphic-web-design-landing-page.jpg" alt="" loading="lazy"><div><span>Web Design</span><h3>Thread & Co Landing Page</h3><p>Fashion brand web UI design.</p></div></article>
+            <article class="portfolio-card graphic-card reveal delay-3" data-category="Graphic Design" data-title="Visual Match Poster" data-year="2026" data-software="Photoshop" data-desc="A bold poster study focused on visual matching, contrast, and cinematic balance."><img class="graphic-card-img" src="assets/images/graphic-design/graphic-visual-match-poster.jpg" alt="" loading="lazy"><div><span>Poster Design</span><h3>Visual Match Poster</h3><p>Bold poster design study.</p></div></article>
+            <article class="portfolio-card graphic-card reveal" data-category="Graphic Design" data-title="Social Media Creative" data-year="2026" data-software="Photoshop" data-desc="A social media creative built for square-format digital campaign use."><img class="graphic-card-img" src="assets/images/graphic-design/graphic-social-media.jpg" alt="" loading="lazy"><div><span>Social Creative</span><h3>Social Media Creative</h3><p>Square campaign artwork.</p></div></article>
+            <article class="portfolio-card graphic-card reveal delay-1" data-category="Graphic Design" data-title="Nike Sneaker Ad" data-year="2026" data-software="Photoshop" data-desc="A sneaker ad concept using strong product focus, dramatic color, and campaign-style framing."><img class="graphic-card-img" src="assets/images/graphic-design/graphic-nike-sneakers-ad.jpg" alt="" loading="lazy"><div><span>Ad Creative</span><h3>Nike Sneaker Ad</h3><p>Product-focused ad artwork.</p></div></article>
+            <article class="portfolio-card graphic-card reveal delay-2" data-category="Graphic Design" data-title="Bugatti Poster" data-year="2026" data-software="Photoshop" data-desc="A premium automotive poster concept designed with cinematic mood and luxury presentation."><img class="graphic-card-img" src="assets/images/graphic-design/graphic-bugatti-poster.jpg" alt="" loading="lazy"><div><span>Poster Design</span><h3>Bugatti Poster</h3><p>Automotive poster concept.</p></div></article>
+            <article class="portfolio-card graphic-card reveal delay-3" data-category="Graphic Design" data-title="Fashion Magazine Cover" data-year="2026" data-software="Photoshop" data-desc="A fashion magazine cover layout exploring typography, image treatment, and editorial balance."><img class="graphic-card-img" src="assets/images/graphic-design/graphic-fashion-magazine-cover.jpg" alt="" loading="lazy"><div><span>Magazine Design</span><h3>Fashion Magazine Cover</h3><p>Editorial cover layout.</p></div></article>
+            <article class="portfolio-card graphic-card reveal" data-category="Graphic Design" data-title="Portrait Magazine Cover" data-year="2026" data-software="Photoshop" data-desc="A personal magazine cover experiment focused on portrait styling and cover composition."><img class="graphic-card-img" src="assets/images/graphic-design/graphic-self-magazine-cover.jpg" alt="" loading="lazy"><div><span>Magazine Design</span><h3>Portrait Magazine Cover</h3><p>Personal editorial concept.</p></div></article>
+            <article class="portfolio-card graphic-card reveal delay-1" data-category="Graphic Design" data-title="Forest Thumbnail" data-year="2026" data-software="Photoshop" data-desc="A YouTube-style thumbnail made for color grading and cinematic video presentation."><img class="graphic-card-img" src="assets/images/graphic-design/graphic-forest-thumbnail.jpg" alt="" loading="lazy"><div><span>Thumbnail Design</span><h3>Forest Thumbnail</h3><p>Cinematic YouTube thumbnail.</p></div></article>
+            <article class="portfolio-card graphic-card reveal delay-2" data-category="Graphic Design" data-title="HT Studio Business Card" data-year="2026" data-software="Photoshop" data-desc="A personal brand business card design for HT Studio with cinematic dark theme and logo mark."><img class="graphic-card-img" src="assets/images/graphic-design/graphic-ht-studio-business-card.jpg" alt="" loading="lazy"><div><span>Business Card</span><h3>HT Studio Business Card</h3><p>Personal brand card design.</p></div></article>
+            <article class="portfolio-card graphic-card reveal delay-3" data-category="Graphic Design" data-title="CycloAnix Logo" data-year="2026" data-software="Illustrator" data-desc="A logo design exploration built around clear shape language and brand mark construction."><img class="graphic-card-img" src="assets/images/graphic-design/graphic-cycloanix-logo.jpg" alt="" loading="lazy"><div><span>Logo Design</span><h3>CycloAnix Logo</h3><p>Logo mark exploration.</p></div></article>
+          </div>
+        </section>
+      </div>
+    </section>
+  </main>
+  <div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-label="Project details">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Close">x</button>
+    <div class="lightbox-card">
+      <div class="lightbox-media" id="lightboxMedia">
+        <div class="lightbox-image" id="lightboxImage"></div>
+        <video class="lightbox-video" id="lightboxVideo" controls playsinline preload="none"></video>
+        <iframe class="lightbox-youtube" id="lightboxYoutube" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="YouTube video player"></iframe>
+      </div>
+      <div class="lightbox-content"><span id="modalCategory"></span><h2 id="modalTitle"></h2><p id="modalDesc"></p><dl><dt>Year</dt><dd id="modalYear"></dd><dt>Software</dt><dd id="modalSoftware"></dd></dl><a class="btn btn-primary" href="contact.html">Discuss Similar Project</a></div>
+    </div>
+  </div>
+  <footer class="site-footer"><div class="container footer-grid"><div><a class="brand footer-brand" href="index.html"><img src="assets/images/logo.png" alt="">HT Studio</a><p>Portfolio samples across design, motion, VFX, and post-production.</p></div><div class="footer-links"><a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Services</a><a href="contact.html">Contact</a></div><p class="copyright">© 2026 HT Studio. All rights reserved.</p></div></footer>
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">Top</button><script type="module" src="js/script.js"></script>
+</body>
+</html>
